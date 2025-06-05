@@ -4,6 +4,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.defaultFormatter": null,
+    "editor.fontSize": 15,
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     }
