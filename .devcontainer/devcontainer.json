@@ -1,0 +1,35 @@
+{
+    "name": "Python Development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12",
+            "installJupyterlab": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "files.autoSave": "afterDelay",
+                "files.autoSaveDelay": 1000,
+                "editor.formatOnSave": true,
+                "editor.formatOnPaste": true,
+                "editor.defaultFormatter": null,
+                "[python]": {
+                    "editor.defaultFormatter": "ms-python.autopep8"
+                }
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.autopep8",
+                "ms-toolsai.jupyter",
+                "eamodio.gitlens",
+                "github.copilot",
+                "github.copilot-chat"
+            ]
+        }
+    },
+    "postCreateCommand": "echo Hello World"
+}
