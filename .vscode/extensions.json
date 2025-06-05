@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.autopep8",
+        "ms-toolsai.jupyter",
+        "eamodio.gitlens",
+        "github.copilot",
+        "github.copilot-chat"
+    ],
+    "unwantedRecommendations": []
+}
